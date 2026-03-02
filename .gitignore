@@ -1,0 +1,36 @@
+# Credentials - never push these
+.env
+*.key
+*.pem
+
+# Raw input data - never push to GitHub
+*/input/
+raw_data/
+
+# Actual data files - DVC handles these
+*.csv
+*.xlsx
+*.dta
+*.parquet
+*.rds
+*.feather
+
+# R and Python artifacts
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LaTeX compilation artifacts
+*.aux
+*.log
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
