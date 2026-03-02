@@ -1,0 +1,5 @@
+[core]
+    remote = supabase
+['remote "supabase"']
+    url = s3://driven_data_proj
+    endpointurl = https://jvobfrhupcwacdzstjyb.storage.supabase.co/storage/v1/s3
