@@ -29,6 +29,9 @@ This is a solo research project. I am the only human working on this repo. It ca
 - When producing an output, create two versions differentiated by a suffix (one having the current date as suffix and one with suffix "up_to_date")
 
 ## General behaviour
-- Ask me before making structural changes to the project
-- If unsure about something, stop and ask rather than guessing, unless I explecitely ask you to finish a first pass of work 
+- Print the changes while you are making it and show what to press or do to stop if I spot something odd
+- Ask me before making changes connections to supabase or github
+- I will refer to folders in the respository as main folders, this will contain multiple subfolders and files within it.
+- I always will requests specific tasks involving one main folder. Aftering finishing your work in that main folder, push those changes with a summary description to dev branch.  
+- In case I request modifying multiple main folders at a time or you understand that in my request, ask for my approval and then push to dev as usual.
 - Summarize what you did at the end of each task by printing in the terminal 
