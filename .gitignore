@@ -3,9 +3,6 @@
 *.key
 *.pem
 
-# Raw input data - never push to GitHub
-*/input/
-raw_data/
 
 # Actual data files - DVC handles these
 *.csv
